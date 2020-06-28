@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    text-align: center;
+    background-color: #7F8C8D;
+    margin-bottom: 10px;
+}
+
+footer{
+    text-align: center;
+    background-color: #7F8C8D;
+    margin-top: 10px;
+}
+
+.app{
+    height: 640px;
+    width: 640px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+
+.selected{
+    -moz-box-shadow:    inset 0 0 50px #5877F9;
+    -webkit-box-shadow: inset 0 0 50px #5877F9;
+    box-shadow:         inset 0 0 50px #5877F9;
+}
+
+.possible{
+    -moz-box-shadow:    inset 0 0 50px #5877F9;
+    -webkit-box-shadow: inset 0 0 50px #5877F9;
+    box-shadow:         inset 0 0 50px #5877F9;
+}
+
+.checkedByWhite{
+    /* -moz-box-shadow:    inset 0 0 50px yellow;
+    -webkit-box-shadow: inset 0 0 50px yellow;
+    box-shadow:         inset 0 0 50px yellow; */
+}
+
+.checkedByBlack{
+    /* -moz-box-shadow:    inset 0 0 50px green;
+    -webkit-box-shadow: inset 0 0 50px green;
+    box-shadow:         inset 0 0 50px green; */
+}
+
+.kingUnderCheck{
+    -moz-box-shadow:    inset 0 0 50px red;
+    -webkit-box-shadow: inset 0 0 50px red;
+    box-shadow:         inset 0 0 50px red;
+}
+
+.black{
+
+}
+
+.blackKing{
+    background-image: url("./image/blackKing.png");
+    background-size: 80px 80px;
+}
+
+.blackQueen{
+    background-image: url("./image/blackQueen.png");
+    background-size: 80px 80px;
+}
+
+.blackBishop{
+    background-image: url("./image/blackBishop.png");
+    background-size: 80px 80px;
+}
+
+.blackKnight{
+    background-image: url("./image/blackKnight.png");
+    background-size: 80px 80px;
+}
+
+.blackRook{
+    background-image: url("./image/blackRook.png");
+    background-size: 80px 80px;
+}
+
+.blackPawn{
+    background-image: url("./image/blackPawn.png");
+    background-size: 80px 80px;
+}
+
+.white{
+
+}
+
+.whiteKing{
+    background-image: url("./image/whiteKing.png");
+    background-size: 80px 80px;
+}
+
+.whiteQueen{
+    background-image: url("./image/whiteQueen.png");
+    background-size: 80px 80px;
+}
+
+.whiteBishop{
+    background-image: url("./image/whiteBishop.png");
+    background-size: 80px 80px;
+}
+
+.whiteKnight{
+    background-image: url("./image/whiteKnight.png");
+    background-size: 80px 80px;
+}
+
+.whiteRook{
+    background-image: url("./image/whiteRook.png");
+    background-size: 80px 80px;
+}
+
+.whitePawn{
+    background-image: url("./image/whitePawn.png");
+    background-size: 80px 80px;
+}
+
+@media(max-width:800px){ 
+    .app{
+        height:400px;
+        width: 320px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        border: 1px solid black;
+    }
+    
+    .blackKing{
+        background-image: url("./image/blackKing.png");
+        background-size: 40px 50px;
+    }
+    
+    .blackQueen{
+        background-image: url("./image/blackQueen.png");
+        background-size: 40px 50px;
+    }
+    
+    .blackBishop{
+        background-image: url("./image/blackBishop.png");
+        background-size: 40px 50px;
+    }
+    
+    .blackKnight{
+        background-image: url("./image/blackKnight.png");
+        background-size: 40px 50px;
+    }
+    
+    .blackRook{
+        background-image: url("./image/blackRook.png");
+        background-size: 40px 50px;
+    }
+    
+    .blackPawn{
+        background-image: url("./image/blackPawn.png");
+        background-size: 40px 50px;
+    }
+    
+    .whiteKing{
+        background-image: url("./image/whiteKing.png");
+        background-size: 40px 50px;
+    }
+    
+    .whiteQueen{
+        background-image: url("./image/whiteQueen.png");
+        background-size: 40px 50px;
+    }
+    
+    .whiteBishop{
+        background-image: url("./image/whiteBishop.png");
+        background-size: 40px 50px;
+    }
+    
+    .whiteKnight{
+        background-image: url("./image/whiteKnight.png");
+        background-size: 40px 50px;
+    }
+    
+    .whiteRook{
+        background-image: url("./image/whiteRook.png");
+        background-size: 40px 50px;
+    }
+    
+    .whitePawn{
+        background-image: url("./image/whitePawn.png");
+        background-size: 40px 50px;
+    }
+    
+}
